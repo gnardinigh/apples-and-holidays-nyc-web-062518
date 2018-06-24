@@ -52,7 +52,7 @@ def symbol_to_string(symbol)
   if the_string.include?"_"
     the_string.sub('_',' ')
   end
-    
+  
   the_string += ":"
   return the_string
 end
