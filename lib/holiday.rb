@@ -102,6 +102,6 @@ def all_supplies_in_holidays(holiday_hash)
   end
 end
 
-all_supplies_in_holidays
+all_supplies_in_holidays(holiday_hash)
 
 
