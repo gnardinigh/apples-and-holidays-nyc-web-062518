@@ -61,6 +61,7 @@ def symbol_to_string(symbol)
       no_underscore_string[counter]=word
       counter+=1
     end
+    puts no_underscore_string.inspect
   end
   puts our_string.inspect
 end
