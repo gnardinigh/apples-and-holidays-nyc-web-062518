@@ -87,7 +87,7 @@ holiday_hash = {
 
 
 
-def season_to_string(symbol)
+def symbol_to_string(symbol)
   the_string = symbol.to_s
   the_string = the_string.capitalize
   the_string += ":"
@@ -106,5 +106,17 @@ def all_supplies_in_holidays(holiday_hash)
 end
 
 all_supplies_in_holidays(holiday_hash)
+
+
+
+
+
+
+
+
+
+
+
+
 
 
