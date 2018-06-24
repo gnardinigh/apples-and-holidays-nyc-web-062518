@@ -56,8 +56,10 @@ def symbol_to_string(symbol)
   if our_string.include?"_"
     no_underscore_string = []
     our_string=our_string.split("_")
+    counter=0
     our_string.each do |word|
-      puts word
+      no_underscore_string[counter]=word
+      counter+=1
     end
   end
   puts our_string.inspect
