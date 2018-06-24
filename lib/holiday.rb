@@ -49,12 +49,7 @@ end
 
 
 
-def all_supplies_in_holidays(holiday_hash)
-  holiday_hash.each do |season,holidays|
-    
-    
-  end
-end
+
 
 def all_holidays_with_bbq(holiday_hash)
   # return an array of holiday names (as symbols) where supply lists
@@ -63,6 +58,13 @@ def all_holidays_with_bbq(holiday_hash)
 end
 
 
+def all_supplies_in_holidays(holiday_hash)
+  holiday_hash.each do |season,holidays|
+    
+    
+  end
+end
+
 
 def season_to_string(symbol)
   the_string = symbol.to_s
@@ -70,10 +72,11 @@ def season_to_string(symbol)
   return the_string
 end
 
-symbol = :winter
 
-a = symbol_to_string(symbol)
-puts a
+
+def holiday_to_string(symbol)
+  
+end
 
 
 
