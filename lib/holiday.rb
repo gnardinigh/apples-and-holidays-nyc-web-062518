@@ -69,8 +69,7 @@ def season_to_string(symbol)
   return the_string
 end
 
-def holiday_to_string(symbol)
-end
+
 
 def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season,holidays|
