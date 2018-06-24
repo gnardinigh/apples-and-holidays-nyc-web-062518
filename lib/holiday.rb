@@ -57,6 +57,8 @@ def symbol_to_string(symbol)
     no_underscore_string = []
     our_string=our_string.split("_")
     our_string.each do |word|
+      puts word
+    end
   end
   puts our_string.inspect
 end
