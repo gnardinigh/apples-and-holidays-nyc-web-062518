@@ -47,28 +47,13 @@ def all_winter_holiday_supplies(holiday_hash)
   
 end
 
+
 symbol = :winter_season
 
 def symbol_to_string(symbol)
-  the_string = symbol.to_s
-  if the_string.include?"_"
-    the_string = the_string.split("_")
-    string_array = []
-    counter = 0
-    the_string.each do |word|
-      string_array[counter] = word.capitalize
-      counter+=1
-    end
-      the _string = string_array.join(" ")
-  end
-  
-  the_string += ":"
-  return the_string
+  our_string = symbol.to_s
+  puts
 end
-
-a = symbol_to_string(symbol)
-puts a 
-
 
 
 
