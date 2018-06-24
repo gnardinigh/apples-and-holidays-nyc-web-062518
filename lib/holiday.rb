@@ -99,7 +99,9 @@ end
 def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season,holidays|
     puts season_to_string(season)
-    
+    holiday.each do |holiday,supplies|
+      
+    end
   end
 end
 
