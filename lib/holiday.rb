@@ -49,7 +49,8 @@ end
 
 def symbol_to_string(symbol)
   the_string = symbol.to_s
-  the_string = the_string.capitalize
+  if the_string.includes?("_")
+    
   the_string += ":"
   return the_string
 end
