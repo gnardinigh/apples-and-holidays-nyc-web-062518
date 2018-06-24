@@ -69,8 +69,7 @@ def symbol_to_string(symbol)
   end
 end
 
-a = symbol_to_string(symbol)
-puts a
+
 
 
 
