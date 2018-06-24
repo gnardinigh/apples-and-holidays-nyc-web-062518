@@ -66,6 +66,7 @@ def symbol_to_string(symbol)
     return no_underscore_string
   else 
     our_string=our_string.capitlize + "!"
+    return our_string
   end
   
 end
