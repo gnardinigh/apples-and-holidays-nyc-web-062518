@@ -54,7 +54,9 @@ def symbol_to_string(symbol)
   our_string = symbol.to_s
   puts our_string
   if our_string.include?"_"
+    no_underscore_string = []
     our_string=our_string.split("_")
+    our_string.each do |word|
   end
   puts our_string.inspect
 end
