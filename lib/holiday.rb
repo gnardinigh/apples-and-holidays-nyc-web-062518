@@ -30,6 +30,7 @@ end
 def add_new_holiday_with_supplies(holiday_hash, season, holiday_name, supply_array)
   holiday_hash[season][holiday_name]=supply_array
   holiday_hash
+
 end
 
 def all_winter_holiday_supplies(holiday_hash)
@@ -43,18 +44,10 @@ def all_winter_holiday_supplies(holiday_hash)
     end
   end
   list.flatten
-  end
-
-def symbol_to_string(symbol)
-  the_string = symbol.to_s
-  the_string = the_string.capitalize
-  the_string += ":"
-  return the_string
+  
 end
 
 
-
-def
 
 
 
@@ -94,14 +87,23 @@ holiday_hash = {
 
 
 
- all_supplies_in_holidays(holiday_hash)
+def symbol_to_string(symbol)
+  the_string = symbol.to_s
+  the_string = the_string.capitalize
+  the_string += ":"
+  return the_string
+end
+
+
+
+def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season,holidays|
     season_string = symbol_to_string(season)
     puts season_string
     holidays.each do |holiday,supplies|
       holiday_string = symbol_to_string(holiday)
       supplies_string = supplies.join(", ")
-      puts "#{holiday_string} #{supplies_string}"
+      puts "#{holiday_string} #{supplies}"
     end
   end
 end
