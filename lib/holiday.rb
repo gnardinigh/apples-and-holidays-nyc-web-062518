@@ -71,6 +71,7 @@ def symbol_to_string(symbol)
 end
 
 a = symbol_to_string(symbol)
+puts a
 
 
 
