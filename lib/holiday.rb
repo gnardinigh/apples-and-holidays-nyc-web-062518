@@ -62,6 +62,7 @@ def symbol_to_string(symbol)
       counter+=1
     end
     no_underscore_string = no_underscore_string.join(" ")
+    no_underscore_string+=":"
   end
   
 end
