@@ -76,12 +76,7 @@ def all_holidays_with_bbq(holiday_hash)
 
 end
 
-a = ["Lights", "Wreath"]
 
-a = a.join(", ")
-puts a.inspect
-
-puts "hello #{a}"
 
 
 
