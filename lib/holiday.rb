@@ -53,6 +53,9 @@ symbol = :winter_season
 def symbol_to_string(symbol)
   our_string = symbol.to_s
   puts our_string
+  if our_string.include?"_"
+    our_string=our_string.split("_")
+  end
 end
 
 symbol_to_string(symbol)
