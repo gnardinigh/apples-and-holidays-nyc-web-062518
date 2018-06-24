@@ -52,9 +52,14 @@ symbol = :winter_season
 def symbol_to_string(symbol)
   the_string = symbol.to_s
   if the_string.include?"_"
-    the_string.sub!('_',' ')
+    the_string.split("_")
+    string_array = []
+    the_string.each_with_index do |word,index|
+      
+    end
+      
   end
-  the_string = the_string.titleize
+  
   the_string += ":"
   return the_string
 end
