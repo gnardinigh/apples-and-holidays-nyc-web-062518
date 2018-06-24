@@ -59,6 +59,9 @@ def symbol_to_string(symbol)
   return the_string
 end
 
+a = symbol_to_string(symbol)
+puts a 
+
 
 
 
