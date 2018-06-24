@@ -101,7 +101,8 @@ def all_supplies_in_holidays(holiday_hash)
     season_string = symbol_to_string(season)
     puts season_string
     holidays.each do |holiday,supplies|
-      symbol_to_string(holiday)
+      holiday_string = symbol_to_string(holiday)
+      supplies_string = supplies.join(", ")
     end
   end
 end
