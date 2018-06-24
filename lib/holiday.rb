@@ -64,7 +64,7 @@ end
 
 
 
-holiday_supplies = {
+holiday_hash = {
   :winter => {
     :christmas => ["Lights", "Wreath"],
     :new_years => ["Party Hats"]
