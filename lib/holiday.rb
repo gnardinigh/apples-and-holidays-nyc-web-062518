@@ -78,7 +78,7 @@ end
 
 a = ["Lights", "Wreath"]
 
-
+a.join(", ")
 
 
 
