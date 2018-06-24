@@ -53,7 +53,6 @@ def symbol_to_string(symbol)
   the_string = symbol.to_s
   if the_string.include?"_"
     the_string = the_string.split("_")
-    
     string_array = []
     counter = 0
     the_string.each do |word|
