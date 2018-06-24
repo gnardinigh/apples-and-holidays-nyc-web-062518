@@ -52,7 +52,7 @@ symbol = :winter_season
 
 def symbol_to_string(symbol)
   our_string = symbol.to_s
-  puts
+  puts our_string
 end
 
 
