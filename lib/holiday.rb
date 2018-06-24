@@ -54,8 +54,10 @@ def symbol_to_string(symbol)
   if the_string.include?"_"
     the_string.split("_")
     string_array = []
+    counter = 0
     the_string.each |word|
-      string_array[index] = word.capitalize
+      string_array[counter] = word.capitalize
+      counter+=1
     end
       the _string = string_array.join(" ")
   end
