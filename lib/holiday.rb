@@ -81,6 +81,8 @@ a = ["Lights", "Wreath"]
 a = a.join(", ")
 puts a.inspect
 
+puts "hello #{a}"
+
 
 
 
