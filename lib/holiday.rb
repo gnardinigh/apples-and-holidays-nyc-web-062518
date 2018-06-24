@@ -55,7 +55,7 @@ def symbol_to_string(symbol)
     the_string.split("_")
     string_array = []
     the_string.each_with_index do |word,index|
-      
+      string_array[index] = word.capitalize
     end
       
   end
