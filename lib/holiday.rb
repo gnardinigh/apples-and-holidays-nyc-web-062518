@@ -58,7 +58,7 @@ def symbol_to_string(symbol)
     our_string=our_string.split("_")
     counter=0
     our_string.each do |word|
-      no_underscore_string[counter]=word
+      no_underscore_string[counter]=word.capitalize
       counter+=1
     end
     puts no_underscore_string.inspect
