@@ -58,12 +58,7 @@ def all_holidays_with_bbq(holiday_hash)
 end
 
 
-def all_supplies_in_holidays(holiday_hash)
-  holiday_hash.each do |season,holidays|
-    
-    
-  end
-end
+
 
 
 def season_to_string(symbol)
@@ -72,12 +67,14 @@ def season_to_string(symbol)
   return the_string
 end
 
-
-
 def holiday_to_string(symbol)
-  
 end
 
-
+def all_supplies_in_holidays(holiday_hash)
+  holiday_hash.each do |season,holidays|
+    
+    
+  end
+end
 
 
