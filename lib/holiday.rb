@@ -47,10 +47,7 @@ def all_winter_holiday_supplies(holiday_hash)
   
 end
 
-def symbol_to_string(symbol)
-  the_string = symbol.to_s
-  
-end
+
 
 def all_supplies_in_holidays(holiday_hash)
   holiday_hash.each do |season,holidays|
@@ -67,7 +64,11 @@ end
 
 
 
-
+def symbol_to_string(symbol)
+  the_string = symbol.to_s
+  the_string = the_string.capitalize
+  return the_string
+end
 
 
 
