@@ -73,6 +73,7 @@ end
 symbol = :winter
 
 a = symbol_to_string(symbol)
+puts a
 
 
 
