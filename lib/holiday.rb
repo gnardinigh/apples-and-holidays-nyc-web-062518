@@ -63,7 +63,9 @@ def symbol_to_string(symbol)
     end
     no_underscore_string = no_underscore_string.join(" ")
     no_underscore_string+=":"
-    puts no_underscore_string
+    return no_underscore_string
+  else 
+    our_string=our_string.capitlize + "!"
   end
   
 end
