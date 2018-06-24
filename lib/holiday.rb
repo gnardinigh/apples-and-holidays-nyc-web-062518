@@ -56,6 +56,7 @@ def symbol_to_string(symbol)
   if our_string.include?"_"
     our_string=our_string.split("_")
   end
+  puts our_string.inspect
 end
 
 symbol_to_string(symbol)
