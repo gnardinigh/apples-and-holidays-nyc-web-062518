@@ -68,6 +68,17 @@ def symbol_to_string(symbol)
 end
 
 
+def all_supplies_in_holidays(holiday_hash)
+  holiday_hash.each do |season,holidays|
+    season_string = symbol_to_string(season)
+    puts season_string
+    holidays.each do |holiday,supplies|
+      holiday_string = symbol_to_string(holiday)
+      supplies_string = supplies.join(", ")
+      puts "  #{holiday_string} #{supplies_string}"
+    end
+  end
+end
 
 
 
@@ -82,36 +93,9 @@ end
 
 
 
-holiday_hash = {
-  :winter => {
-    :christmas => ["Lights", "Wreath"],
-    :new_years => ["Party Hats"]
-  },
-  :summer => {
-    :fourth_of_july => ["Fireworks", "BBQ"]
-  },
-  :fall => {
-    :thanksgiving => ["Turkey"]
-  },
-  :spring => {
-    :memorial_day => ["BBQ"]
-  }
-}
 
 
 
-
-def all_supplies_in_holidays(holiday_hash)
-  holiday_hash.each do |season,holidays|
-    season_string = symbol_to_string(season)
-    puts season_string
-    holidays.each do |holiday,supplies|
-      holiday_string = symbol_to_string(holiday)
-      supplies_string = supplies.join(", ")
-      puts "  #{holiday_string} #{supplies_string}"
-    end
-  end
-end
 
 
 
