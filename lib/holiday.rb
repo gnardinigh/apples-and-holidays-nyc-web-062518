@@ -79,6 +79,7 @@ end
 a = ["Lights", "Wreath"]
 
 a.join(", ")
+puts a.inspect
 
 
 
