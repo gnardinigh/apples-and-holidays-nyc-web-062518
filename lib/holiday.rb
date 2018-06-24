@@ -63,6 +63,30 @@ end
 
 
 
+
+holiday_supplies = {
+  :winter => {
+    :christmas => ["Lights", "Wreath"],
+    :new_years => ["Party Hats"]
+  },
+  :summer => {
+    :fourth_of_july => ["Fireworks", "BBQ"]
+  },
+  :fall => {
+    :thanksgiving => ["Turkey"]
+  },
+  :spring => {
+    :memorial_day => ["BBQ"]
+  }
+}
+
+
+
+
+
+
+
+
 def season_to_string(symbol)
   the_string = symbol.to_s
   the_string = the_string.capitalize
