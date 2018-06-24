@@ -70,5 +70,10 @@ def symbol_to_string(symbol)
   return the_string
 end
 
+symbol = :winter
+
+a = symbol_to_string(symbol)
+
+
 
 
