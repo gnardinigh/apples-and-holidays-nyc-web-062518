@@ -90,7 +90,8 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.each do |holiday,supplies|
       counter=0
       if supplies.include?"BBQ"
-        return holiday
+        holidays_with_bbq[counter]=holiday
+        counter+=1
       end
     end
   end
