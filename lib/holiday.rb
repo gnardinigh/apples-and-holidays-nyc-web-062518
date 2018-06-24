@@ -67,7 +67,6 @@ def symbol_to_string(symbol)
     our_string=our_string.capitalize + ":"
     return our_string
   end
-  
 end
 
 a = symbol_to_string(symbol)
