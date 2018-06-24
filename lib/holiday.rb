@@ -55,6 +55,7 @@ def symbol_to_string(symbol)
   puts our_string
 end
 
+symbol_to_string(symbol)
 
 
 
