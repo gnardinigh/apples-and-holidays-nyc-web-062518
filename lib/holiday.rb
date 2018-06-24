@@ -78,7 +78,7 @@ end
 
 a = ["Lights", "Wreath"]
 
-a = a.to_s(", ")
+a = a.join(", ")
 puts a.inspect
 
 
