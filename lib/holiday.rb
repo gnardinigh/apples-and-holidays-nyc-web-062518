@@ -43,8 +43,7 @@ def all_winter_holiday_supplies(holiday_hash)
     end
   end
   list.flatten
-  
-end
+  end
 
 
 symbol = :summer
