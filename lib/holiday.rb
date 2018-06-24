@@ -64,7 +64,7 @@ end
 
 
 
-def symbol_to_string(symbol)
+def season_to_string(symbol)
   the_string = symbol.to_s
   the_string = the_string.capitalize
   return the_string
