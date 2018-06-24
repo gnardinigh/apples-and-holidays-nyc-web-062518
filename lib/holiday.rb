@@ -48,7 +48,7 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 
-symbol = :winter_season
+symbol = :summer
 
 def symbol_to_string(symbol)
   our_string = symbol.to_s
