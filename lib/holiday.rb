@@ -64,7 +64,7 @@ def symbol_to_string(symbol)
     no_underscore_string+=":"
     return no_underscore_string
   else 
-    our_string=our_string.capitlize + "!"
+    our_string=our_string.capitalize + "!"
     return our_string
   end
   
