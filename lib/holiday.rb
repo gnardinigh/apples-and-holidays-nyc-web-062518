@@ -61,9 +61,9 @@ def symbol_to_string(symbol)
       no_underscore_string[counter]=word.capitalize
       counter+=1
     end
-    puts no_underscore_string.inspect
+    no_underscore_string = no_underscore_string.join(" ")
   end
-  puts our_string.inspect
+  
 end
 
 symbol_to_string(symbol)
